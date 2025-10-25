@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty Anita Gwolitya - Program Manager | Product Manager | Economist</title>
+    <meta name="description" content="Kitty Anita Gwolitya - Program Manager, Product Manager & Economist bridging business and technology to deliver measurable commercial outcomes. Based in Brighton, United Kingdom.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Kitty Anita Gwolitya - Program Manager | Product Manager | Economist">
+    <meta property="og:description" content="Bridging business strategy and technology execution to deliver measurable commercial outcomes">
+    <meta property="og:image" content="https://yourdomain.com/your-photo.jpg">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kitty Anita Gwolitya - Program Manager | Product Manager | Economist">
+    <meta name="twitter:description" content="Bridging business strategy and technology execution to deliver measurable commercial outcomes">
+    <meta name="twitter:image" content="https://yourdomain.com/your-photo.jpg">
+    
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="icon" href="favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-1: #071025;
+            --accent-1: #00c6ff;
+            --accent-2: #ff6b4a;
+            --muted: #9fb6d1;
+            --card: #07182a;
+        }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+            background: linear-gradient(180deg, var(--bg-1) 0%, #04141f 100%);
+            color: #eaf3ff;
+        }
+        .glass {
+            background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+            border: 1px solid rgba(255,255,255,0.04);
+            backdrop-filter: blur(6px);
+        }
+        .brand-gradient {
+            background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .icon-spot {
+            width: 56px;
+            height: 56px;
+            display: grid;
+            place-items: center;
+            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+            border: 1px solid rgba(255,255,255,0.03);
+        }
+        .metric-num {
+            font-weight: 700;
+            color: #fff;
+            font-size: 1.6rem;
+        }
+        .small-muted {
+            color: var(--muted);
+        }
+        .skill-chip {
+            background: rgba(255,255,255,0.03);
+            padding: .35rem .7rem;
+            border-radius: 999px;
+            border: 1px solid rgba(255,255,255,0.03);
+            font-size: 0.92rem;
+        }
+        .chart-svg {
+            width: 100%;
+            height: 120px;
+        }
+        .pulse {
+            animation: pulse 3s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+        .step-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--accent-1);
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .lead-pitch {
+            font-size: 1.05rem;
+            color: #dff6ff;
+        }
+        .nowrap {
+            white-space: nowrap;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(8px);
+            transition: all 550ms ease;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 6px;
+            border-radius: 10px;
+            transition: width 1s ease-in-out;
+        }
+        .industry-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: rgba(255,255,255,0.05);
+            border-radius: 1rem;
+            font-size: 0.8rem;
+            margin: 0.1rem;
+        }
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+        }
+        .tool-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .tool-card:hover {
+            transform: translateY(-2px);
+            background: rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Rest of your HTML content remains exactly the same -->
+    <header class="max-w-7xl mx-auto px-6 md:px-10 pt-10">
+        <div class="flex items-start justify-between gap-6">
+            <div>
+                <p class="text-sm small-muted">Program Manager • Product Manager • Economist • Brighton, United Kingdom</p>
+                <h1 class="text-3xl md:text-5xl font-bold mt-2 leading-tight">Kitty Anita Gwolitya</h1>
+                <p class="mt-3 text-lg lead-pitch max-w-2xl">
+                    <span class="brand-gradient">I bridge business strategy and technology execution to deliver measurable commercial outcomes.</span> 
+                    I lead programs and products that turn commercial data into revenue growth, operational efficiency, and market expansion across multiple industries.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-3 items-center">
+                    <a href="tel:+447927196885" class="px-4 py-2 bg-gradient-to-r from-[#00c6ff] to-[#ff6b4a] text-black rounded-full font-semibold shadow">Call +447927196885</a>
+                    <a href="mailto:antagwolik@gmail.com" class="px-4 py-2 border border-[#00c6ff] text-[#00c6ff] rounded-full font-semibold">Email Me</a>
+                    <a href="https://www.linkedin.com/in/k-a-g/" target="_blank" class="px-4 py-2 bg-[#0077b5] text-white rounded-full font-semibold flex items-center gap-2">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="hidden md:flex flex-col items-end text-right">
+                <div class="glass px-6 py-5 rounded-2xl shadow-lg w-72">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-xs small-muted">Managed Portfolios</div>
+                            <div class="metric-num" id="portfolio-amt">$0</div>
+                            <div class="text-sm small-muted">Co-investment with Mastercard Foundation</div>
+                        </div>
+                        <div class="icon-spot">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 7.5A1.5 1.5 0 0 1 4.5 6h15A1.5 1.5 0 0 1 21 7.5v9A1.5 1.5 0 0 1 19.5 18h-15A1.5 1.5 0 0 1 3 16.5v-9z" stroke="#9ccbf0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 6.5V5.5A2.5 2.5 0 0 1 10.5 3h3A2.5 2.5 0 0 1 16 5.5v1" stroke="#9ccbf0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 w-72 glass px-4 py-4 rounded-2xl">
+                    <div class="text-xs small-muted">Businesses Supported</div>
+                    <div class="text-2xl font-bold">5,000+</div>
+                    <div class="text-xs small-muted">SMEs across value chains</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Executive Summary -->
+    <section class="max-w-7xl mx-auto px-6 md:px-10 mt-6">
+        <div class="glass p-6 rounded-2xl border-l-4 border-[#00c6ff] fade-in">
+            <h2 class="text-xl font-bold mb-3">30-Second Summary</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div>
+                    <div class="font-semibold">🏆 Top Achievement</div>
+                    <div class="small-muted">Drove 45% partner firm growth through value chain development</div>
+                </div>
+                <div>
+                    <div class="font-semibold">💰 Financial Impact</div>
+                    <div class="small-muted">Managed $5M+ co-investment portfolios delivering 85%+ ROI</div>
+                </div>
+                <div>
+                    <div class="font-semibold">🎓 Education & Experience</div>
+                    <div class="small-muted">MSc Computer Science (UK) + 4+ years international experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Role Match Section -->
+    <section class="mt-8 max-w-7xl mx-auto px-6 md:px-10">
+        <div class="glass p-5 rounded-2xl fade-in">
+            <h3 class="font-semibold text-lg mb-3">I'm a strong fit for roles in:</h3>
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-gradient-to-r from-[#00c6ff] to-[#00c6ff]/20 rounded-full font-medium">Senior Product Manager</span>
+                <span class="px-4 py-2 bg-gradient-to-r from-[#ff6b4a] to-[#ff6b4a]/20 rounded-full font-medium">Technical Program Manager</span>
+                <span class="px-4 py-2 bg-gradient-to-r from-[#bff2c1] to-[#bff2c1]/20 rounded-full font-medium">Business Analyst</span>
+                <span class="px-4 py-2 bg-gradient-to-r from-[#9ad4ff] to-[#9ad4ff]/20 rounded-full font-medium">Project Manager</span>
+                <span class="px-4 py-2 bg-gradient-to-r from-[#ffd48a] to-[#ffd48a]/20 rounded-full font-medium">Economist</span>
+                <span class="px-4 py-2 bg-gradient-to-r from-[#d9b3ff] to-[#d9b3ff]/20 rounded-full font-medium">Product Owner</span>
+                <span class="px-4 py-2 bg-gradient-to-r from-[#ff9ec0] to-[#ff9ec0]/20 rounded-full font-medium">Strategy Consultant</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-6 md:px-10 mt-10 pb-20">
+        <!-- Industry Experience Row -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Value Chain Development (B2B & B2C) -->
+            <div class="glass p-5 rounded-2xl fade-in">
+                <div class="flex items-start justify-between">
+                    <h4 class="font-semibold text-lg">Value Chain Development (B2B & B2C)</h4>
+                    <span class="text-xs px-2 py-1 bg-green-500/20 text-green-300 rounded">45% Partner Growth</span>
+                </div>
+                
+                <div class="mt-2">
+                    <span class="industry-tag">Beauty & Personal Care</span>
+                    <span class="industry-tag">Mobility</span>
+                    <span class="industry-tag">Agriculture</span>
+                    <span class="industry-tag">Financial Services</span>
+                </div>
+                
+                <div class="mt-3">
+                    <div class="text-sm font-medium mb-2">🚀 The Challenge</div>
+                    <p class="text-sm small-muted">Large firms needed to expand markets and strengthen value chains while creating youth employment opportunities through small business growth</p>
+                </div>
+                
+                <div class="mt-3">
+                    <div class="text-sm font-medium mb-2">💡 My Solution</div>
+                    <p class="text-sm small-muted">Led co-investment portfolios with Mastercard Foundation and large firms, developing commercial data platforms and business tools for SMEs. Partnered with Equity Bank, Stanbic Bank Uganda, and Centenary Bank to design financing products like stock financing that improved access to capital for women-owned businesses with limited credit history.</p>
+                </div>
+                
+                <div class="mt-3">
+                    <div class="text-sm font-medium mb-2">📈 Results</div>
+                    <div class="flex gap-4 text-sm">
+                        <div class="text-center">
+                            <div class="font-bold text-[#00c6ff]">45%</div>
+                            <div class="small-muted">Partner Growth</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="font-bold text-[#00c6ff]">5K+</div>
+                            <div class="small-muted">SMEs Supported</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="font-bold text-[#00c6ff]">85%+</div>
+                            <div class="small-muted">ROI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Health & Medical Technology -->
+            <div class="glass p-5 rounded-2xl hover:scale-102 transform transition fade-in">
+                <div class="flex items-start gap-4">
+                    <div class="icon-spot">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 7v10M7 12h10" stroke="#bff2c1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-lg">Health & Medical Technology</h4>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">🚀 The Challenge</div>
+                            <p class="text-sm small-muted">University of Zurich needed market validation for a prostate cancer diagnostic tool to secure pilot funding and plan market entry</p>
+                        </div>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">💡 My Solution</div>
+                            <p class="text-sm small-muted">Conducted comprehensive healthcare market analysis, collected stakeholder feedback, and collaborated with engineers to refine product UX based on clinical needs</p>
+                        </div>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">📈 Results</div>
+                            <p class="text-sm small-muted">Delivered product launch strategy that prioritized clinical use cases and shaped procurement approaches for successful pilot funding</p>
+                        </div>
+                        
+                        <div class="mt-3 flex gap-2 text-xs">
+                            <span class="skill-chip">Market Research</span>
+                            <span class="skill-chip">Go-to-Market</span>
+                            <span class="skill-chip">Product Validation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Finance & Investments -->
+            <div class="glass p-5 rounded-2xl hover:scale-102 transform transition fade-in">
+                <div class="flex items-start gap-4">
+                    <div class="icon-spot">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 3v18M5 8h14" stroke="#9ad4ff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-lg">Finance & Investments</h4>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">🚀 The Challenge</div>
+                            <p class="text-sm small-muted">Mastercard Foundation needed effective governance for $5M+ co-investment portfolios while minimizing risk and maximizing impact</p>
+                        </div>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">💡 My Solution</div>
+                            <p class="text-sm small-muted">Designed performance-based disbursement frameworks, created risk assessment tools, and established monitoring systems for portfolio companies</p>
+                        </div>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">📈 Results</div>
+                            <p class="text-sm small-muted">Achieved 85%+ ROI across portfolios, improved portfolio quality by 20%, and secured banking partnerships that extended financing to underserved SMEs</p>
+                        </div>
+                        
+                        <div class="mt-3 flex gap-2 text-xs">
+                            <span class="skill-chip">Portfolio Management</span>
+                            <span class="skill-chip">Financial Modeling</span>
+                            <span class="skill-chip">Risk Assessment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology & Due Diligence -->
+            <div class="glass p-5 rounded-2xl hover:scale-102 transform transition fade-in">
+                <div class="flex items-start gap-4">
+                    <div class="icon-spot">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2v6M8 11h8l-4 9-4-9z" stroke="#ffd48a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-lg">Technology & Due Diligence</h4>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">🚀 The Challenge</div>
+                            <p class="text-sm small-muted">Investment committees needed reliable due diligence for technology and manufacturing projects to inform co-investment decisions</p>
+                        </div>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">💡 My Solution</div>
+                            <p class="text-sm small-muted">Conducted technical and market feasibility studies, analyzed youth employment potential, and evaluated value chain integration opportunities</p>
+                        </div>
+                        
+                        <div class="mt-2">
+                            <div class="text-sm font-medium mb-1">📈 Results</div>
+                            <p class="text-sm small-muted">Provided data-driven investment recommendations that informed portfolio allocation across technology, ICT, and manufacturing sectors</p>
+                        </div>
+                        
+                        <div class="mt-3 flex gap-2 text-xs">
+                            <span class="skill-chip">Due Diligence</span>
+                            <span class="skill-chip">Market Analysis</span>
+                            <span class="skill-chip">Technical Assessment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills & Tools Section -->
+        <section class="mt-10 glass p-6 rounded-2xl fade-in">
+            <h3 class="text-xl font-semibold mb-4">Technical Skills & Tools</h3>
+            
+            <!-- Asana Workflow Expertise -->
+            <div class="mb-8">
+                <h4 class="font-semibold text-lg text-[#00c6ff] mb-3">Asana Workflow Specialist</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <div class="text-sm font-medium mb-2">Workflow Design & Optimization</div>
+                        <ul class="small-muted text-sm space-y-1">
+                            <li>• Custom workflow creation for cross-functional teams</li>
+                            <li>• Automated task assignment and progress tracking</li>
+                            <li>• Integration with other tools (Slack, Google Workspace)</li>
+                            <li>• Performance metrics and reporting dashboards</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-sm font-medium mb-2">Process Improvements</div>
+                        <ul class="small-muted text-sm space-y-1">
+                            <li>• Reduced project delivery time by 30% through workflow optimization</li>
+                            <li>• Improved team collaboration and visibility across 15+ departments</li>
+                            <li>• Streamlined reporting processes saving 10+ hours weekly</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Tools Grid -->
+            <div class="mb-6">
+                <h4 class="font-semibold text-lg mb-4">Development & Technical Tools</h4>
+                <div class="tool-grid">
+                    <div class="tool-card">
+                        <div class="text-lg font-semibold mb-1">Python</div>
+                        <div class="text-xs small-muted">Data Analysis & Automation</div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="text-lg font-semibold mb-1">R Studio</div>
+                        <div class="text-xs small-muted">Statistical Analysis</div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="text-lg font-semibold mb-1">Stata</div>
+                        <div class="text-xs small-muted">Economic Modeling</div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="text-lg font-semibold mb-1">SPSS</div>
+                        <div class="text-xs small-muted">Statistical Analysis</div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="text-lg font-semibold mb-1">VS Code</div>
+                        <div class="text-xs small-muted">Development Environment</div>
+                    </div>
+                    <div class="tool-card">
+                        <div class="text-lg font-semibold mb-1">IntelliJ</div>
+                        <div class="text-xs small-muted">Java Development</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Management Tools -->
+            <div class="mb-6">
+                <h4 class="font-semibold text-lg mb-4">Project Management & Collaboration</h4>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-chip">Asana (Workflow Specialist)</span>
+                    <span class="skill-chip">MS Project</span>
+                    <span class="skill-chip">Notion</span>
+                    <span class="skill-chip">Slack</span>
+                    <span class="skill-chip">Microsoft Teams</span>
+                    <span class="skill-chip">Zoom</span>
+                    <span class="skill-chip">Google Workspace</span>
+                    <span class="skill-chip">Microsoft Office Suite</span>
+                </div>
+            </div>
+
+            <!-- Data & Financial Tools -->
+            <div>
+                <h4 class="font-semibold text-lg mb-4">Data & Financial Management</h4>
+                <div class="flex flex-wrap gap-3">
+                    <span class="skill-chip">Microsoft Excel (Advanced)</span>
+                    <span class="skill-chip">SAP ERP</span>
+                    <span class="skill-chip">Financial Modeling</span>
+                    <span class="skill-chip">Budget Analysis</span>
+                    <span class="skill-chip">Investment Forecasting</span>
+                    <span class="skill-chip">EpiData</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact + Visuals -->
+        <section class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <div class="glass p-6 rounded-2xl fade-in">
+                <h3 class="text-xl font-semibold">Impact at a Glance</h3>
+                <p class="small-muted mt-2">Selected outcomes across industries with strong job markets in UK, USA, Europe, Switzerland, Australia, and Canada.</p>
+                <div class="mt-4 grid grid-cols-2 gap-4">
+                    <div class="p-4 bg-black/20 rounded-lg">
+                        <div class="text-xs small-muted">Return on Investment</div>
+                        <div class="text-3xl font-bold text-[#bff2c1]">85%+</div>
+                        <div class="text-xs small-muted mt-1">Across co-investment portfolios</div>
+                    </div>
+                    <div class="p-4 bg-black/20 rounded-lg">
+                        <div class="text-xs small-muted">Businesses Supported</div>
+                        <div class="text-3xl font-bold text-[#9ad4ff]">5,000+</div>
+                        <div class="text-xs small-muted mt-1">SMEs across value chains</div>
+                    </div>
+                    <div class="p-4 bg-black/20 rounded-lg">
+                        <div class="text-xs small-muted">Partner Firm Growth</div>
+                        <div class="text-3xl font-bold text-[#ffd48a]">+45%</div>
+                        <div class="text-xs small-muted mt-1">Average sales growth for large partner firms</div>
+                    </div>
+                    <div class="p-4 bg-black/20 rounded-lg">
+                        <div class="text-xs small-muted">Industries Covered</div>
+                        <div class="text-3xl font-bold text-[#ff6b4a]">6+</div>
+                        <div class="text-xs small-muted mt-1">FMCG, Healthcare, Finance, Tech, Agriculture, Mobility</div>
+                    </div>
+                </div>
+
+                <div class="mt-6">
+                    <h4 class="font-semibold">Banking Partnerships</h4>
+                    <div class="mt-3 flex flex-wrap gap-3">
+                        <span class="skill-chip">Equity Bank</span>
+                        <span class="skill-chip">Stanbic Bank Uganda</span>
+                        <span class="skill-chip">Centenary Bank</span>
+                    </div>
+                    <p class="small-muted mt-2 text-sm">Designed and implemented stock financing products that improved access to capital for women-owned SMEs with limited credit history or collateral, minimizing lending risks for banking partners.</p>
+                </div>
+
+                <div class="mt-6">
+                    <h4 class="font-semibold">Program Leadership Framework</h4>
+                    <ol class="list-decimal list-inside small-muted mt-2 space-y-2">
+                        <li><strong>Define commercial outcomes:</strong> Set clear KPIs that map to revenue, market expansion, and operational efficiency</li>
+                        <li><strong>Design scalable solutions:</strong> Build products and partnerships that address core business challenges</li>
+                        <li><strong>Execute with precision:</strong> Lead cross-functional teams to deliver on time and within budget</li>
+                        <li><strong>Measure and iterate:</strong> Use data to validate assumptions and optimize performance</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Case studies / visual illustrations -->
+            <div class="glass p-6 rounded-2xl fade-in">
+                <h3 class="text-xl font-semibold">Projects</h3>
+                <div class="mt-4 space-y-4">
+                    <article class="p-4 bg-black/20 rounded-lg">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-[#00c6ff] to-[#ff6b4a] flex items-center justify-center">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M3 7h18M5 7v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7" stroke="#061622" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Commercial Data Platform — Mastercard Foundation Partnership</h4>
+                                <p class="small-muted mt-1">Led product strategy and delivery for a commercial data platform serving large firms and 5,000+ SMEs across beauty, mobility and agriculture value chains. Platform enabled better production planning for large firms and business management tools for SMEs. Result: 45% sales growth for partner firms and strengthened value chains.</p>
+                                <div class="mt-2 text-xs flex gap-2">
+                                    <span class="skill-chip">Product Strategy</span>
+                                    <span class="skill-chip">Value Chain Development</span>
+                                    <span class="skill-chip">Stakeholder Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="p-4 bg-black/20 rounded-lg">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-[#bff2c1] to-[#9ad4ff] flex items-center justify-center">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 7v10M7 12h10" stroke="#061622" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Healthcare Product Strategy — University of Zurich</h4>
+                                <p class="small-muted mt-1">Led market research and product validation for a prostate cancer diagnostic tool, shaping clinical use cases and procurement approaches that secured pilot funding and informed market entry strategy.</p>
+                                <div class="mt-2 text-xs flex gap-2">
+                                    <span class="skill-chip">Market Research</span>
+                                    <span class="skill-chip">Product Validation</span>
+                                    <span class="skill-chip">Healthcare Strategy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="p-4 bg-black/20 rounded-lg">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-[#ffd48a] to-[#ff6b4a] flex items-center justify-center">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 2v6M8 11h8l-4 9-4-9z" stroke="#061622" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Financial Product Design — Banking Partnerships</h4>
+                                <p class="small-muted mt-1">Designed and implemented stock financing products in partnership with Equity Bank, Stanbic Bank Uganda, and Centenary Bank to improve access to capital for women-owned SMEs with limited credit history, minimizing lending risks while expanding financial inclusion.</p>
+                                <div class="mt-2 text-xs flex gap-2">
+                                    <span class="skill-chip">Financial Product Design</span>
+                                    <span class="skill-chip">Banking Partnerships</span>
+                                    <span class="skill-chip">Risk Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills with Progress Bars -->
+        <section class="mt-10 glass p-6 rounded-2xl fade-in">
+            <h3 class="text-xl font-semibold mb-4">Core Skills & Proficiency</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Product Strategy</span>
+                            <span class="small-muted">Expert</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Program Management</span>
+                            <span class="small-muted">Expert</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Financial Analysis</span>
+                            <span class="small-muted">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Stakeholder Management</span>
+                            <span class="small-muted">Expert</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Data Analysis (Python, R, Stata)</span>
+                            <span class="small-muted">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Business Analysis</span>
+                            <span class="small-muted">Expert</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Market Research</span>
+                            <span class="small-muted">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>Technical Leadership</span>
+                            <span class="small-muted">Advanced</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill bg-[#00c6ff]" style="width: 78%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-6 small-muted">Currently enhancing technical capabilities through MSc Computer Science at University of Brighton (UK) to better bridge product and engineering teams.</div>
+        </section>
+
+        <!-- Education -->
+        <section class="mt-10">
+            <h3 class="text-xl font-semibold">Education & Certifications</h3>
+            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="glass p-5 rounded-2xl fade-in">
+                    <h4 class="font-semibold text-[#bff2c1]">MSc Computer Science</h4>
+                    <div class="text-sm small-muted">University of Brighton, UK | 2025-2026</div>
+                    <p class="mt-2 small-muted text-sm">Expanding technical expertise in software engineering and systems architecture</p>
+                </div>
+                <div class="glass p-5 rounded-2xl fade-in">
+                    <h4 class="font-semibold text-[#bff2c1]">MSc Economics</h4>
+                    <div class="text-sm small-muted">Università della Svizzera Italiana, Switzerland</div>
+                    <p class="mt-2 small-muted text-sm">Quantitative analysis, economic modeling, and market research</p>
+                </div>
+                <div class="glass p-5 rounded-2xl fade-in">
+                    <h4 class="font-semibold text-[#bff2c1]">PRINCE2 Project Management</h4>
+                    <div class="text-sm small-muted">PeopleCert/Axelos | 85% certification success rate</div>
+                </div>
+                <div class="glass p-5 rounded-2xl fade-in">
+                    <h4 class="font-semibold text-[#bff2c1]">Asana Workflow Specialist</h4>
+                    <div class="text-sm small-muted">Workflow optimization & team collaboration</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="mt-12 glass p-6 rounded-2xl flex flex-col md:flex-row items-center justify-between fade-in">
+            <div>
+                <h4 class="text-lg font-semibold">Ready to discuss how I can deliver results for your organization?</h4>
+                <p class="small-muted mt-1">I bring a unique combination of business strategy, technical execution, and financial acumen to drive measurable outcomes.</p>
+            </div>
+            </div>
+        </section>
+
+        <footer class="mt-12 text-center text-sm small-muted">
+            © Kitty Anita Gwolitya — Program Manager • Product Manager • Economist — Based in Brighton, United Kingdom
+            <div class="mt-2">
+                <a href="https://www.linkedin.com/in/k-a-g/" target="_blank" class="text-[#00c6ff]">Connect on LinkedIn</a>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        function animateCounter(id, from, to, duration) {
+            const el = document.getElementById(id);
+            let start = null;
+            const step = timestamp => {
+                if (!start) start = timestamp;
+                const progress = Math.min((timestamp - start) / duration, 1);
+                const value = Math.floor(progress * (to - from) + from);
+                el.textContent = `$${value.toLocaleString()}`;
+                if (progress < 1) requestAnimationFrame(step);
+            };
+            requestAnimationFrame(step);
+        }
+
+        function fadeInOnScroll() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            fadeElements.forEach(el => {
+                const elementTop = el.getBoundingClientRect().top;
+                const elementVisible = 150;
+                if (elementTop < window.innerHeight - elementVisible) {
+                    el.classList.add('visible');
+                }
+            });
+        }
+
+        function animateProgressBars() {
+            const progressBars = document.querySelectorAll('.progress-fill');
+            progressBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 500);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            animateCounter('portfolio-amt', 0, 5200000, 1600);
+            
+            // Initial fade in for elements already in view
+            fadeInOnScroll();
+            
+            // Fade in elements on scroll
+            window.addEventListener('scroll', fadeInOnScroll);
+            
+            // Animate progress bars when they come into view
+            setTimeout(animateProgressBars, 1000);
+        });
+    </script>
+</body>
+</html>
